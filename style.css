@@ -41,7 +41,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     background-color: #1F2937;
-    padding: 20px 48px;
+    padding: 20px 48px 100px 48px;
 }
 
 .sub-hero {
@@ -95,8 +95,9 @@ ul {
     flex-grow: 1;
     justify-content: center;
     background-color: white;
-    padding: 20px 48px;
-    gap: 80px
+    padding: 60px 48px;
+    gap: 80px;
+    margin-bottom: 100px;
 }
 
 .items {
@@ -106,8 +107,26 @@ ul {
     border: 3px #3882F6 solid;
 }
 
-
 .text {
     max-width: 150px;
-    
+}
+
+.qoute-container {
+    background-color: lightgray;
+    padding: 20px 48px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.qoute-sub-container{
+    font-size: xx-large;
+    max-width: 900px;
+}
+
+.author {
+    font-size: xx-large;
+    font-weight: 500;
 }
